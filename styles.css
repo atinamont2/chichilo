@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:lighter;
+    color: #f14649;
+    background-color: whitesmoke;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: #f14649;
+    font-size: 15px;
+}
+
+
+#navbar li a {
+    text-decoration: none;
+    color: #f14649;
+}
+
+#navbar li a:visited {
+    color: #b23d40;
+}
+
+#main-content {
+     display: flex;
+     flex-direction: column;
+   text-align: center;
+   color: #f14649;
+}
+
+
+#menu, #contacto{
+    background-color: #f14649;;
+    padding: 20px;
+    color: whitesmoke;
+    border-radius: 20px;
+    text-align: left;
+    list-style: lower-greek;
+}
+
+#contacto {
+    margin-top: 25px;
+}
+
+#galeria {
+    display: flex;
+    justify-content: space-around;
+}
+
+#galeria img {
+    filter: drop-shadow(10px, 20px, 5px, black);
+}
+
+#galeria img {
+    width: 200px; 
+    height: 200px; 
+    margin-right: 10px; 
+    object-fit: cover;
+}
+
+#visitas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f14649;
+    color: whitesmoke;
+    margin: 0;
+}
+
+footer #google-search {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
